@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1df80001595c4598b461c7cc91dbad87" Name="Diagram1">
+        <EntityTypeShape EntityType="SiteDb2Model.Tbl_Kategori" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SiteDb2Model.Tbl_Musteri" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SiteDb2Model.Tbl_Personel" Width="1.5" PointX="8.375" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SiteDb2Model.Tbl_Satıs" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SiteDb2Model.Tbl_Urunler" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="SiteDb2Model.FK_Tbl_Urunler_Tbl_Kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="SiteDb2Model.FK_Tbl_Satıs_Tbl_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="SiteDb2Model.FK_Tbl_Satıs_Tbl_Personel" ManuallyRouted="false" />
+        <AssociationConnector Association="SiteDb2Model.FK_Tbl_Satıs_Tbl_Urunler" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="SiteDb2Model.Tbl_Admin" Width="1.5" PointX="5.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
